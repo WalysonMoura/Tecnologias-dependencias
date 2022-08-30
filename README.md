@@ -61,6 +61,15 @@ $ npm install @splinetool/react-spline @splinetool/runtime
 ```
 
 # Back-End 💻
+* ## Express
+```
+$ npm install express   
+```
+* ## TypeScript
+```
+$ npm typescript ts-node-dev @types/express -D 
+$ npm tsc --init 
+```
 * ## axios
 ```
 $ npm install --save axios   
