@@ -7,19 +7,19 @@
 
 * ## Criando projeto Next.JS
 ```
-$ npx create-next-app Nome-Projeto
+ npx create-next-app Nome-Projeto
 ```
 
 * ## Instalação React / Next.JS
 ```
-$ npm i  next react react-dom    
+npm i  next react react-dom    
 ```
 * ## Style-components
 ```
-$ npm install --save styled-components
+ npm install --save styled-components
 ```
 ```
-$  npm i -D babel-plugin-styled-components
+ npm i -D babel-plugin-styled-components
 ```
 
  Para utilizaçâo do Styled Components com Next é necessário a criação do arquivo `.babelrc` na raiz do projeto com as configurações a seguir:  
@@ -45,34 +45,34 @@ $  npm i -D babel-plugin-styled-components
 
 * ## React icons
 ```
-$  npm install react-icons --save 
+  npm install react-icons --save 
 ```
 * ## React Reveall
 ```
-$ npm install react-awesome-reveal @emotion/react --save
+ npm install react-awesome-reveal @emotion/react --save
 ```
 * ## Animate.css
 ```
-$ npm install animate.css --save 
+npm install animate.css --save 
 ```
 * ## Spline 3D
 ```
-$ npm install @splinetool/react-spline @splinetool/runtime
+npm install @splinetool/react-spline @splinetool/runtime
 ```
 
 # Back-End 💻
 * ## Express
 ```
-$ npm install express   
+ npm install express   
 ```
 * ## TypeScript
 ```
-$ npm typescript ts-node-dev @types/express -D 
-$ npm tsc --init 
+npm typescript ts-node-dev @types/express -D 
+ npm tsc --init 
 ```
 * ## axios
 ```
-$ npm install --save axios   
+ npm install --save axios   
 ```
 
 
