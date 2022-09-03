@@ -7,7 +7,7 @@
 
 * ## Criando projeto Next.JS
 ```
-$ npx create-next-app Nome-Projeto
+$ npx create-next-app  Nome-Projeto
 ```
 
 * ## Instalação React / Next.JS
