@@ -5,12 +5,12 @@
 
 # Front-End <img src="https://github.com/rafaballerini/ReactHooks/blob/master/public/React.svg.png?raw=true" width="70px" >
 
-* ## Criando projeto Next.JS
+
+* ## Instalação React / Next.JS / Styled-Components
 ```
- npx create-next-app Nome-Projeto
+npx create-next-app --nomeProjeto with-styled-components with-styled-components-app
 ```
 
-* ## Instalação React / Next.JS
 ```
 npm i  next react react-dom    
 ```
