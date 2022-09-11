@@ -66,6 +66,14 @@ npm install @splinetool/react-spline @splinetool/runtime
 ```
  npm install express   
 ```
+ ### Express-generator
+```
+npm install express-generator -g
+```
+* ## Ejs
+```
+ express nomeProjeto --ejs   
+```
 * ## TypeScript
 ```
 npm typescript ts-node-dev @types/express -D 
