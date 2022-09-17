@@ -74,11 +74,26 @@ npm install express-generator -g
 ```
  express nomeProjeto --ejs   
 ```
+
+* ## Sequelize
+```
+ npm install sequelize
+```
+```
+npm install sequelize-cli -D
+```
+
+* ## MySQL 
+```
+npm install mysql2
+```
+
 * ## TypeScript
 ```
 npm typescript ts-node-dev @types/express -D 
  npm tsc --init 
 ```
+
 * ## axios
 ```
  npm install --save axios   
