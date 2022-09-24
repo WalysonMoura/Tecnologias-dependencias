@@ -96,6 +96,8 @@ npm install mysql2
 * ## TypeScript
 ```
 npm typescript ts-node-dev @types/express -D 
+```
+```
  npm tsc --init 
 ```
 
