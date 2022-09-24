@@ -83,7 +83,7 @@ npm install express-generator -g
 npm install sequelize-cli -D
 ```
 ### Models co sequelize
-```
+
 ```
 npx sequelize init:models
 ```
@@ -97,6 +97,7 @@ npm install mysql2
 ```
 npm typescript ts-node-dev @types/express -D 
 ```
+
 ```
  npm tsc --init 
 ```
