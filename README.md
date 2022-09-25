@@ -52,6 +52,10 @@ npm i  next react react-dom
 ```
  npm install react-awesome-reveal @emotion/react --save
 ```
+* ## React Tilt
+```
+yarn add react-parallax-tilt
+```
 * ## Animate.css
 ```
 npm install animate.css --save 
