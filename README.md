@@ -52,7 +52,7 @@ npm i  next react react-dom
 ```
  npm install react-awesome-reveal @emotion/react --save
 ```
-* ## React Tilt
+* ## React Tilt [site](https://mkosir.github.io/react-parallax-tilt/?path=/story/react-parallax-tilt--default)
 ```
 yarn add react-parallax-tilt
 ```
