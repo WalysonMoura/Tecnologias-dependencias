@@ -8,18 +8,18 @@
 
 * ## Instalação React / Next.JS / Styled-Components
 ```
-npx create-next-app --nomeProjeto with-styled-components with-styled-components-app
+yarn create-next-app --nomeProjeto with-styled-components with-styled-components-app
 ```
 
 ```
-npm i  next react react-dom    
+yarn add  next react react-dom    
 ```
 * ## Style-components
 ```
- npm install --save styled-components
+ yarn add --save styled-components
 ```
 ```
- npm i -D babel-plugin-styled-components
+ yarn add -D babel-plugin-styled-components
 ```
 
  Para utilizaçâo do Styled Components com Next é necessário a criação do arquivo `.babelrc` na raiz do projeto com as configurações a seguir:  
@@ -46,11 +46,11 @@ npm i  next react react-dom
 * ## React icons
 [Buscar Icones](https://react-icons.github.io/react-icons/)
 ```
-  npm install react-icons --save 
+  yarn add react-icons --save 
 ```
 * ## React Reveall
 ```
- npm install react-awesome-reveal @emotion/react --save
+ yarn add react-awesome-reveal @emotion/react --save
 ```
 * ## React Tilt [site](https://mkosir.github.io/react-parallax-tilt/?path=/story/react-parallax-tilt--default)
 ```
@@ -58,21 +58,21 @@ yarn add react-parallax-tilt
 ```
 * ## Animate.css
 ```
-npm install animate.css --save 
+yarn add animate.css --save 
 ```
 * ## Spline 3D
 ```
-npm install @splinetool/react-spline @splinetool/runtime
+yarn add @splinetool/react-spline @splinetool/runtime
 ```
 
 # Back-End 💻
 * ## Express
 ```
- npm install express   
+ yarn add express   
 ```
  ### Express-generator
 ```
-npm install express-generator -g
+yarn add express-generator -g
 ```
 * ## Ejs
 ```
@@ -81,10 +81,10 @@ npm install express-generator -g
 
 * ## Sequelize
 ```
- npm install sequelize
+ yarn add sequelize
 ```
 ```
-npm install sequelize-cli -D
+yarn add sequelize-cli -D
 ```
 ### Models co sequelize
 
@@ -94,12 +94,12 @@ yarn sequelize init:models
 
 * ## MySQL 
 ```
-npm install mysql2
+yarn add install mysql2
 ```
 
 * ## TypeScript
 ```
-npm typescript ts-node-dev @types/express -D 
+yarn add typescript ts-node-dev @types/express -D 
 ```
 
 ```
@@ -108,7 +108,7 @@ npm typescript ts-node-dev @types/express -D
 
 * ## axios
 ```
- npm install --save axios   
+ yarn add --save axios   
 ```
 
 
