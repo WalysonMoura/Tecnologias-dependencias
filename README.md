@@ -8,7 +8,7 @@
 
 * ## Instalação React / Next.JS / Styled-Components
 ```
-yarn create-next-app --nomeProjeto with-styled-components with-styled-components-app
+yarn create next-app --nomeProjeto with-styled-components with-styled-components-app
 ```
 
 ```
