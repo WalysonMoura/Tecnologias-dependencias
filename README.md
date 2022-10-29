@@ -16,7 +16,7 @@ yarn add  next react react-dom
 ```
 * ## Style-components
 ```
- yarn add --save styled-components
+ yarn add styled-components --save
 ```
 ```
  yarn add -D babel-plugin-styled-components
