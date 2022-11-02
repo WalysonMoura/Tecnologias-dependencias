@@ -126,6 +126,15 @@ yarn add typescript ts-node-dev @types/express -D
  yarn add --save axios   
 ```
 
+* ## GraphQL
+```
+ yarn add type-graphql graphql apollo-server class-validator reflect-metadata
+ 
+```
+```
+ yarn add type-g
+ 
+```
 
 # Ferramentas Extras
 
