@@ -8,12 +8,21 @@
 
 * ## Instalação React / Next.JS / Styled-Components
 ```
-yarn create next-app --nomeProjeto with-styled-components with-styled-components-app
+yarn create next-app --nomeProjeto with-styled-components with-styled-components-app --typescript
 ```
-
 ```
 yarn add  next react react-dom    
 ```
+
+* ## TypeScript
+```
+yarn add typescript -D 
+```
+```
+yarn add typescript @types/react @types/node -D 
+
+```
+
 * ## Style-components
 ```
  yarn add styled-components --save
@@ -98,6 +107,12 @@ yarn add install mysql2
 ```
 
 * ## TypeScript
+```
+yarn add typescript -D 
+```
+```
+yarn add typescript @types/react @types/node -D 
+```
 ```
 yarn add typescript ts-node-dev @types/express -D 
 ```
