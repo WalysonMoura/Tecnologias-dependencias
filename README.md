@@ -136,6 +136,12 @@ yarn add typescript ts-node-dev @types/express -D
  
 ```
 
+# CMS
+* ## Prismic
+```
+ yarn add @prismicio/react @prismicio/client
+```
+
 # Ferramentas Extras
 
 * [CSS Buttons](https://uiverse.io)
