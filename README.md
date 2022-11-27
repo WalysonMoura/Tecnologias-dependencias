@@ -11,6 +11,9 @@
 yarn create next-app --nomeProjeto with-styled-components with-styled-components-app --typescript
 ```
 ```
+yarn add next@13 
+```
+```
 yarn add  next react react-dom    
 ```
 
