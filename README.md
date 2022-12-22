@@ -17,7 +17,7 @@ yarn add next@13
 yarn add  next react react-dom    
 ```
 
-* ## TypeScript
+* ## TypeScript  
 ```
 yarn add typescript -D 
 ```
@@ -78,10 +78,32 @@ yarn add @splinetool/react-spline @splinetool/runtime
 ```
 
 # Back-End 💻
+* ## ambiente Node.js
+```
+ yarn init -y   
+```
 * ## Express
 ```
  yarn add express   
 ```
+* ## TypeScript 
+```
+yarn add typescript @types/express @types/node -D 
+```
+
+* ## Configuração do TypeScript
+```
+yarn tsc --init 
+```
+```
+yarn tsc
+```
+* ## compilar  TypeScript
+```
+yarn add ts-node-dev -D
+```
+
+
  ### Express-generator
 ```
 yarn add express-generator -g
@@ -109,20 +131,6 @@ yarn sequelize init:models
 yarn add install mysql2
 ```
 
-* ## TypeScript
-```
-yarn add typescript -D 
-```
-```
-yarn add typescript @types/react @types/node -D 
-```
-```
-yarn add typescript ts-node-dev @types/express -D 
-```
-
-```
- npm tsc --init 
-```
 
 * ## axios
 ```
