@@ -98,11 +98,18 @@ yarn tsc --init
 ```
 yarn tsc
 ```
+
 * ## compilar  TypeScript
 ```
 yarn add ts-node-dev -D
 ```
 
+* ## Type ORM
+
+#### Com PostgreSQL 
+```
+ yarn add typeorm reflect-metadata pg
+```
 
  ### Express-generator
 ```
