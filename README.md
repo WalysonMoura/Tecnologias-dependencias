@@ -106,9 +106,14 @@ yarn add ts-node-dev -D
 
 * ## Type ORM
 
-#### Com PostgreSQL 
+#### -> Com PostgreSQL 
 ```
  yarn add typeorm reflect-metadata pg
+```
+
+#### Criando Migrations
+```
+ yarn add typeorm migration:create -n CreateCategories
 ```
 
  ### Express-generator
