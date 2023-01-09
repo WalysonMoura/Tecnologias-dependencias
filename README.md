@@ -108,7 +108,7 @@ yarn add ts-node-dev -D
 
 #### -> Com PostgreSQL 
 ```
- yarn add typeorm reflect-metadata pg
+ yarn  typeorm reflect-metadata pg
 ```
 
 #### Criando Migrations
