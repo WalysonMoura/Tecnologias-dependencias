@@ -8,30 +8,30 @@
 
 * ## Instalação React / Next.JS / Styled-Components
 ```
-yarn create next-app --nomeProjeto with-styled-components with-styled-components-app --typescript
+npm create next-app --nomeProjeto with-styled-components with-styled-components-app --typescript
 ```
 ```
-yarn add next@13 
+npm i next@13 
 ```
 ```
-yarn add  next react react-dom    
+npm i   next react react-dom    
 ```
 
 * ## TypeScript  
 ```
-yarn add typescript -D 
+npm i  typescript -D 
 ```
 ```
-yarn add typescript @types/react @types/node -D 
+npm i  typescript @types/react @types/node -D 
 
 ```
 
 * ## Style-components
 ```
- yarn add styled-components --save
+npm i styled-components --save
 ```
 ```
- yarn add -D babel-plugin-styled-components
+npm i  -D babel-plugin-styled-components
 ```
 
  Para utilizaçâo do Styled Components com Next é necessário a criação do arquivo `.babelrc` na raiz do projeto com as configurações a seguir:  
@@ -58,23 +58,23 @@ yarn add typescript @types/react @types/node -D
 * ## React icons
 [Buscar Icones](https://react-icons.github.io/react-icons/)
 ```
-  yarn add react-icons --save 
+  npm i  react-icons --save 
 ```
 * ## React Reveall
 ```
- yarn add react-awesome-reveal @emotion/react --save
+npm i  react-awesome-reveal @emotion/react --save
 ```
 * ## React Tilt [site](https://mkosir.github.io/react-parallax-tilt/?path=/story/react-parallax-tilt--default)
 ```
-yarn add react-parallax-tilt
+npm i  react-parallax-tilt
 ```
 * ## Animate.css
 ```
-yarn add animate.css --save 
+npm i  animate.css --save 
 ```
 * ## Spline 3D
 ```
-yarn add @splinetool/react-spline @splinetool/runtime
+npm i  @splinetool/react-spline @splinetool/runtime
 ```
 
 # Back-End 💻
