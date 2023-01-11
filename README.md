@@ -34,7 +34,7 @@ npm i styled-components --save
 npm i  -D babel-plugin-styled-components
 ```
 
- Para utilizaçâo do Styled Components com Next é necessário a criação do arquivo `.babelrc` na raiz do projeto com as configurações a seguir:  
+ Para utilizaçâo do Styled Components com Next é necessário a criação do arquivo `babel.config.js` na raiz do projeto com as configurações a seguir:  
 
 
 ```.json
