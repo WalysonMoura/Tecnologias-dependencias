@@ -1,8 +1,4 @@
- <details>
-  <summary><h2>Testes</h2></summary>
- * h
- * k
- <details/>
+
 
 
 # 🛠️ Tecnologias/Ferramentas ultilizadas
@@ -10,8 +6,9 @@
 
 ![mock1](https://user-images.githubusercontent.com/71772559/113493479-eceeda80-94b5-11eb-94ea-59e50e56a31f.png)
 
-# Front-End <img src="https://github.com/rafaballerini/ReactHooks/blob/master/public/React.svg.png?raw=true" width="70px" >
 
+<details>
+ <summary><h1>Front-End <img src="https://github.com/rafaballerini/ReactHooks/blob/master/public/React.svg.png?raw=true" width="70px"></h2></summary>
 
 * ## Instalação React / Next.JS / Styled-Components
 ```
@@ -84,14 +81,20 @@ npm i  animate.css --save
 npm i  @splinetool/react-spline @splinetool/runtime
 ```
 
-# Back-End 💻
+</details>
+ 
+ 
 <details>
- <summary><b><h2>ambiente Node.js</h2><b/></summary>
-* ## ambiente Node.js
+ <summary><h1>Back-End 💻</h2></summary>
+ 
+  
+<details>
+ <summary><h2>ambiente Node.js</h2></summary>
+
 ```
  yarn init -y   
 ```
-* ## Express
+ * ## Express
 ```
  yarn add express   
 ```
@@ -99,8 +102,7 @@ npm i  @splinetool/react-spline @splinetool/runtime
 ```
 yarn add typescript @types/express @types/node -D 
 ```
-
-* ## Configuração do TypeScript
+ * ### Configuração do TypeScript
 ```
 yarn tsc --init 
 ```
@@ -108,7 +110,7 @@ yarn tsc --init
 yarn tsc
 ```
 
-* ## compilar  TypeScript
+ * ## compilar  TypeScript
 ```
 yarn add ts-node-dev -D
 ```
@@ -118,7 +120,10 @@ yarn add ts-node-dev -D
 ```
 npm i tsup -D
 ```
-<details/>
+ 
+</details>
+
+
  
 <details>
  <summary><h2>Testes</h2></summary>
@@ -138,7 +143,7 @@ npm i tsup -D
    }
  }
  ```
- <details/>
+</details>
 
 <details>
  <summary><h2>ORM</h2></summary>
@@ -214,7 +219,13 @@ yarn add install mysql2
 * ## Prismic
 ```
  yarn add @prismicio/react @prismicio/client
-```
+``
+ 
+</details> 
+
+
+
+
 
 # Ferramentas Extras
 
