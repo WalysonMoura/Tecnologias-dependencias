@@ -110,28 +110,28 @@ yarn add ts-node-dev -D
 npm i tsup -D
 ```
 <details>
-<summary><h2>Testes</h2></summary>
+ <summary><h2>Testes</h2></summary>
 
-* ###  Viteste
-```
-npm i viteste -D
-```
+ * ###  Viteste
+ ```
+ npm i viteste -D
+ ```
 
-```.json
-{
-  "scripts": {
-    "start": "tsx src/server.ts",
-    "dev": "tsx watch src/server.ts",
-    "build": "tsup src",
-    "test": "viteste"
-  }
-}
-```
+ ```.json
+ {
+   "scripts": {
+     "start": "tsx src/server.ts",
+     "dev": "tsx watch src/server.ts",
+     "build": "tsup src",
+     "test": "viteste"
+   }
+ }
+ ```
 
-<details/>
+ <details/>
 
 <details>
-<summary><h2>ORM</h2></summary>
+ <summary><h2>ORM</h2></summary>
 * ### Type ORM
 
 #### -> Com PostgreSQL 
@@ -169,14 +169,14 @@ yarn sequelize init:models
 <details/>
 
 <details>
-<summary><h2>Database</h2></summary>
+ <summary><h2>Database</h2></summary>
 
 * ## MySQL 
 ```
 yarn add install mysql2
 ```
-
 <details/>
+ 
 <details>
 <summary><h2>Database</h2></summary>
 
@@ -185,6 +185,7 @@ yarn add install mysql2
  yarn add --save axios   
 ```
 <details/>
+ 
 <details>
 <summary><h2>Database</h2></summary>
 
