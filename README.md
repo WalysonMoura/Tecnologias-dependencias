@@ -122,7 +122,7 @@ npm i viteste -D
     "start": "tsx src/server.ts",
     "dev": "tsx watch src/server.ts",
     "build": "tsup src",
-    ""
+    "test": "viteste"
   }
 }
 ```
