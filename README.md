@@ -1,3 +1,10 @@
+ <details>
+  <summary><h2>Testes</h2></summary>
+ *n
+ *k
+ <details/>
+
+
 # 🛠️ Tecnologias/Ferramentas ultilizadas
 * ### NPM  de instalação das tecnologias mais usadas por mim 
 
@@ -131,7 +138,6 @@ npm i tsup -D
    }
  }
  ```
-
  <details/>
 
 <details>
