@@ -109,8 +109,9 @@ yarn add ts-node-dev -D
 ```
 npm i tsup -D
 ```
+<details>
+<summary><h2>Testes</h2></summary>
 
-## Testes
 * ###  Viteste
 ```
 npm i viteste -D
@@ -127,8 +128,10 @@ npm i viteste -D
 }
 ```
 
+<details/>
 
-* ## ORM
+<details>
+<summary><h2>ORM</h2></summary>
 * ### Type ORM
 
 #### -> Com PostgreSQL 
@@ -163,16 +166,27 @@ yarn add sequelize-cli -D
 yarn sequelize init:models
 ```
 
+<details/>
+
+<details>
+<summary><h2>Database</h2></summary>
+
 * ## MySQL 
 ```
 yarn add install mysql2
 ```
 
+<details/>
+<details>
+<summary><h2>Database</h2></summary>
 
 * ## axios
 ```
  yarn add --save axios   
 ```
+<details/>
+<details>
+<summary><h2>Database</h2></summary>
 
 * ## GraphQL
 ```
@@ -183,6 +197,7 @@ yarn add install mysql2
  yarn add type-g
  
 ```
+<details/>
 
 # CMS
 * ## Prismic
