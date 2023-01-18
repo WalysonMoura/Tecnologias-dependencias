@@ -104,6 +104,31 @@ yarn tsc
 yarn add ts-node-dev -D
 ```
 
+## compilar TypeScript (Build)
+* ###  tsup
+```
+npm i tsup -D
+```
+
+## Testes
+* ###  Viteste
+```
+npm i viteste -D
+```
+
+```.json
+{
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts",
+    "build": "tsup src",
+    ""
+  }
+}
+```
+
+
+
 * ## Type ORM
 
 #### -> Com PostgreSQL 
