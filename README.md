@@ -78,6 +78,8 @@ npm i  @splinetool/react-spline @splinetool/runtime
 ```
 
 # Back-End 💻
+<details>
+ <summary><b><h2>ambiente Node.js</h2><b/></summary>
 * ## ambiente Node.js
 ```
  yarn init -y   
@@ -109,6 +111,8 @@ yarn add ts-node-dev -D
 ```
 npm i tsup -D
 ```
+<details/>
+ 
 <details>
  <summary><h2>Testes</h2></summary>
 
