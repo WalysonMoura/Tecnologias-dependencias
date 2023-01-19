@@ -92,7 +92,12 @@ npm i  @splinetool/react-spline @splinetool/runtime
  <summary><h2>ambiente Node.js</h2></summary>
 
 ```
- yarn init -y   
+ npm init -y   
+```
+
+* ## TSX 
+```
+ npm i tsx -D   
 ```
 
 * ## TypeScript 
@@ -189,9 +194,13 @@ npm i tsup -D
  yarn add typeorm migration:create -n CreateCategories
 ```
 
- ### Express-generator
+* ### Prisma
 ```
-yarn add express-generator -g
+ npx i -D prisma
+```
+#### Iniciando Database
+```
+ npx prisma init --datasouce-provider SQLite
 ```
 * ## Ejs
 ```
