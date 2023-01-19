@@ -203,7 +203,7 @@ npm i tsup -D
 ```
 #### Iniciando Database
 ```
- npx prisma init --datasouce-provider SQLite
+ npx prisma init --datasource-provider sqlite
 ```
 * ## Ejs
 ```
