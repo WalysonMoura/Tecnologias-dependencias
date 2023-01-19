@@ -155,7 +155,7 @@ npm i tsup -D
      npm i express   
     ```
     ```
-     npm i  @types/express -D 
+     npm i  #fastify/cors
     ```
   
   * ###  Nest.JS
@@ -205,6 +205,17 @@ npm i tsup -D
 ```
  npx prisma init --datasource-provider sqlite
 ```
+ #### Criando Migrations
+ ```
+ npx prisma migrate dev
+```
+  #### Prisma Studio
+```
+ npx prisma studio
+```
+ 
+ 
+ 
 * ## Ejs
 ```
  express nomeProjeto --ejs   
