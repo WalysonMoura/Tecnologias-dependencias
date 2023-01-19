@@ -196,7 +196,10 @@ npm i tsup -D
 
 * ### Prisma
 ```
- npx i -D prisma
+ npm i -D prisma
+```
+```
+ npm i @prisma/client
 ```
 #### Iniciando Database
 ```
