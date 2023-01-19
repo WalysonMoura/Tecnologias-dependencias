@@ -94,10 +94,7 @@ npm i  @splinetool/react-spline @splinetool/runtime
 ```
  yarn init -y   
 ```
- * ## Express
-```
- yarn add express   
-```
+
 * ## TypeScript 
 ```
 yarn add typescript @types/express @types/node -D 
@@ -121,19 +118,8 @@ yarn add ts-node-dev -D
 npm i tsup -D
 ```
  
-</details>
-
-
  
-<details>
- <summary><h2>Testes</h2></summary>
-
- * ###  Viteste
- ```
- npm i viteste -D
- ```
-
- ```.json
+  ```.json
  {
    "scripts": {
      "start": "tsx src/server.ts",
@@ -143,6 +129,50 @@ npm i tsup -D
    }
  }
  ```
+ 
+</details>
+
+<details>
+ <summary><h2>Framework</h2></summary>
+ 
+  * ###  Express
+  
+    ```
+     npm i express   
+    ```
+    ```
+     npm i  @types/express -D 
+    ```
+  
+  * ###  Fastify
+  
+    ```
+     npm i express   
+    ```
+    ```
+     npm i  @types/express -D 
+    ```
+  
+  * ###  Nest.JS
+  
+   ```
+    npm i express   
+   ```
+   ```
+     npm i  @types/express -D 
+   ```
+ 
+</details>
+ 
+<details>
+ <summary><h2>Testes</h2></summary>
+
+ * ###  Viteste
+ 
+ ```
+  npm i viteste -D
+ ```
+ 
 </details>
 
 <details>
