@@ -224,7 +224,9 @@ Cole esse código no arquivo  `schema.prisma` :
      provider = "prisma-erd-generator"
   }
  ```
- 
+ ```
+ npx prisma generate
+```
 * ## Ejs
 ```
  express nomeProjeto --ejs   
