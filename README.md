@@ -213,8 +213,17 @@ npm i tsup -D
 ```
  npx prisma studio
 ```
- 
- 
+   #### Gerador de diagrama de relacionamento com entidades Prisma
+```
+ npm i -D prisma-erd-generator @mermaid-js/mermaid-cli
+```
+Cole esse código no arquivo  `schema.prisma` :
+
+ ```.js
+  generator erd {
+     provider = "prisma-erd-generator"
+  }
+ ```
  
 * ## Ejs
 ```
