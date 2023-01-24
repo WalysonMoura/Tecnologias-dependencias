@@ -123,6 +123,16 @@ npm add ts-node-dev -D
 npm i tsup -D
 ```
  
+ * ## ESlint
+```
+ npm i eslint -D   
+```
+```
+ npm init @eslint/config   
+```
+
+
+
  
   ```.json
  {
