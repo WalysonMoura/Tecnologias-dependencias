@@ -102,19 +102,19 @@ npm i  @splinetool/react-spline @splinetool/runtime
 
 * ## TypeScript 
 ```
-yarn add typescript @types/express @types/node -D 
+npm add typescript @types/express @types/node -D 
 ```
  * ### Configuração do TypeScript
 ```
-yarn tsc --init 
+npm tsc --init 
 ```
 ```
-yarn tsc
+npm tsc
 ```
 
  * ## compilar  TypeScript
 ```
-yarn add ts-node-dev -D
+npm add ts-node-dev -D
 ```
 
 ## compilar TypeScript (Build)
