@@ -106,10 +106,10 @@ npm add typescript @types/express @types/node -D
 ```
  * ### Configuração do TypeScript
 ```
-npm tsc --init 
+ tsc --init 
 ```
 ```
-npm tsc
+ tsc
 ```
 
  * ## compilar  TypeScript
