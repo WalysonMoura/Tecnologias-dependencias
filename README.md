@@ -106,11 +106,9 @@ npm add typescript @types/express @types/node -D
 ```
  * ### Configuração do TypeScript
 ```
- tsc --init 
+ npx tsc --init
 ```
-```
- tsc
-```
+
 
  * ## compilar  TypeScript
 ```
@@ -185,7 +183,7 @@ npm i tsup -D
  * ###  Viteste
  
  ```
-  npm i viteste -D
+  npm i vitest -D
  ```
  
 </details>
