@@ -149,7 +149,7 @@ npm i tsup -D
  {
    "scripts": {
      "start": "tsx src/server.ts",
-     "lint": "eslint src -e .ts",
+     "lint": "eslint src --ext .ts --fix",
      "dev": "tsx watch src/server.ts",
      "build": "tsup src",
      "test": "viteste"
