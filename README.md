@@ -137,13 +137,13 @@ npm i tsup -D
 
  arquivo `.eslintrc.json`
 
-  ```.json
+```.json
  {
    "extends": {
      "@rocketseat/eslint-config/node"
    }
  }
- ```
+```
 
   ```.json
  {
@@ -168,7 +168,7 @@ npm i tsup -D
      npm i express   
     ```
 
-    ```
+    ```bash
      npm i  @types/express -D 
     ```
   
@@ -204,6 +204,19 @@ npm i tsup -D
  ```
 
 </details>
+
+
+<details>
+ <summary><h2>SQL Query Builder</h2></summary>
+
+* ###  Knex.js
+
+ ```bash
+   npm install knex sqlite3
+ ```
+
+</details>
+
 
 <details>
  <summary><h2>ORM</h2></summary>
