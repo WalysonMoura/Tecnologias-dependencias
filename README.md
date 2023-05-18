@@ -123,15 +123,27 @@ npm i tsup -D
 
 * ## ESlint
 
-```
+```bash
  npm i eslint -D   
 ```
-```
+
+```bash
  npm init @eslint/config 
 ```
-```
+
+```bash
  npm i @rocketseat/eslint-config -D   
 ```
+
+ arquivo `.eslintrc.json`
+
+  ```.json
+ {
+   "extends": {
+     "@rocketseat/eslint-config/node"
+   }
+ }
+ ```
 
   ```.json
  {
@@ -194,7 +206,7 @@ npm i tsup -D
 
 <details>
  <summary><h2>ORM</h2></summary>
- 
+
 * ### Type ORM
 
 #### -> Com PostgreSQL
