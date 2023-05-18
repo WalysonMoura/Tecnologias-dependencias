@@ -126,9 +126,11 @@ npm i tsup -D
 ```
  npm i eslint -D   
 ```
-
 ```
- npm init @eslint/config   
+ npm init @eslint/config 
+```
+```
+ npm i @rocketseat/eslint-config -D   
 ```
 
   ```.json
