@@ -205,9 +205,38 @@ npm i tsup -D
 
 </details>
 
+<details>
+ <summary><h2>Docker</h2></summary>
+
+* ###  Docker Composer
+
+`docker-compose.yml`
+
+ ```yml
+  version: '3'
+    services:
+      api-solid-pg:
+        image: bitnami/postgresql
+        ports:
+          - 5432:5432
+        environment:
+          - POSTGRESQL_USERNAME=docker
+          - POSTGRESQL_PASSWORD=docker
+          - POSTGRESQL_DATABASE=apisolid
+      
+ ```
+
+ ```bash
+  docker compose up -d
+ ```
+
+</details>
+
 
 <details>
- <summary><h2>SQL Query Builder</h2></summary>
+ <summary>
+   <h2>SQL Query Builder</h2>
+ </summary>
 
 * ###  Knex.js
 
@@ -218,25 +247,13 @@ npm i tsup -D
 </details>
 
 
+
+
 <details>
  <summary><h2>ORM</h2></summary>
 
-* ### Type ORM
-
-#### -> Com PostgreSQL
-
-```bash
- yarn  typeorm reflect-metadata pg
-```
-
-#### Criando Migrations
-
-```bash
- yarn add typeorm migration:create -n CreateCategories
-```
-
-* ### Prisma
-
+* ###  Prisma
+ 
 ```bash
  npm i -D prisma
 ```
@@ -279,6 +296,27 @@ Cole esse código no arquivo  `schema.prisma` :
 
  ```bash
  npx prisma generate
+```
+
+</details>
+
+
+
+<details>
+ <summary><h2>ORM</h2></summary>
+
+* ### Type ORM
+
+#### -> Com PostgreSQL
+
+```bash
+ yarn  typeorm reflect-metadata pg
+```
+
+#### Criando Migrations
+
+```bash
+ yarn add typeorm migration:create -n CreateCategories
 ```
 
 * ## Ejs
