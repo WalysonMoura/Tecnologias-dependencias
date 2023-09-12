@@ -88,6 +88,11 @@ npm i  @splinetool/react-spline @splinetool/runtime
 ```bash
  npm init -y   
 ```
+* ## All
+
+```bash
+ npm i typescript @types/express @types/node tsup vitest  eslint tsx -D   
+```
 
 * ## TSX
 
