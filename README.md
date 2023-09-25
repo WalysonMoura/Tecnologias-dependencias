@@ -5,8 +5,35 @@
 
 ![mock1](https://user-images.githubusercontent.com/71772559/113493479-eceeda80-94b5-11eb-94ea-59e50e56a31f.png)
 
+
 <details>
- <summary><h1>Front-End <img src="https://github.com/rafaballerini/ReactHooks/blob/master/public/React.svg.png?raw=true" width="70px"></h2>
+ <summary><h2>Config GIT</h2>
+ </summary>
+</details>
+
+```bash
+
+[user]
+    name = WalysonMoura
+    email = walysonmoura222@gmail.com
+
+[includeIf "gitdir:C:/Users/Vaio/www/programacao/redacao-ia/"]
+  path = C:/Users/Vaio/www/programacao/redacao-ia/.gitconfig-redacao-ia
+
+[includeIf "gitdir:C:/Users/Vaio/www/programacao/agencia-upcoder/"]
+  path = C:/Users/Vaio/www/programacao/agencia-upcoder/.gitconfig-agencia-upcoder
+
+[core]
+  editor = code --wait
+
+[alias]
+  s = !git status -s
+  c = !git add --all && git commit -m
+  l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr' 
+```
+
+<details>
+ <summary><h2>Front-End <img src="https://github.com/rafaballerini/ReactHooks/blob/master/public/React.svg.png?raw=true" width="70px"/></h2>
  </summary>
 
 * ## Instalação React / Next.JS / Styled-Components
