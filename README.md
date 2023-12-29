@@ -261,6 +261,53 @@ npm i tsup -D
   docker compose up -d
  ```
 
+# Comandos Docker
+
+- Com esse comando você verifica todos os containers ativos (e não ativos com o comando `-a`)
+```javascript
+ docker ps -a
+```
+
+
+```javascript
+ docker ps -a
+```
+
+
+```javascript
+ docker start nome_do_container
+```
+
+- O comando `run` cria um novo container e logo após você especifica o nome da imagem que o mesmo vai utilizar (no exemplo a a imagem `hello-world`)
+```javascript
+ docker run hello-world
+```
+
+- O comando `-it` especifica que o container (no exemplo a a imagem `hello-world`) após ser criado deverá ficar ativo e executar com o comando `bash`
+- Com o comado `--rm`  o container deverá ser excluido após executado
+```javascript
+  docker run -it --rm ubuntu:latest bash
+```
+
+### Nginx
+
+```javascript
+  docker run nginx 
+```
+- Por padrão o nosso container criado com a imagem do Nginx utiliza a porta 80
+- com o comando `-p 8080:80` utlizamos um redirecionamento da porta que o container está utilizando com alguma porta da nossa máquina, assim podemos acessar a porta do nosso Container 
+- o comando `-d` é possivel utilizar o terminal, e o processo do contaneir será executado sem bloquear o terminal
+```javascript
+  docker run -d -p 8080:80 nginx
+```
+
+### Remover containers
+- Utilize o comando `rm` com ID do container
+
+```javascript
+  docker rm 07f933bceeef
+```
+
 </details>
 
 
