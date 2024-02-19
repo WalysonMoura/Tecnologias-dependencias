@@ -207,7 +207,7 @@ npm i tsup -D
 * ###  Fastify
   
     ```bash
-     npm i express   
+     npm i fastify  
     ```
 
     ```bash
