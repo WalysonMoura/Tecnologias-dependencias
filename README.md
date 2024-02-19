@@ -130,7 +130,7 @@ npm i  @splinetool/react-spline @splinetool/runtime
 * ## TypeScript
 
 ```bash
-npm add typescript @types/express @types/node -D 
+npm add typescript  @types/node -D 
 ```
 
 * ### Configuração do TypeScript
