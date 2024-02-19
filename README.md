@@ -189,6 +189,12 @@ npm i tsup -D
  }
  ```
 
+* ## dotenv
+
+```bash
+ npm i dotenv   
+```
+
 </details>
 
 <details>
@@ -211,7 +217,7 @@ npm i tsup -D
     ```
 
     ```bash
-     npm i  #fastify/cors
+     npm i  @fastify/cookie
     ```
   
 * ###  Nest.JS
