@@ -8,10 +8,9 @@
 
 <details>
  <summary><h2>Config GIT</h2>
- </summary>
-</details>
 
-```bash
+ </summary>
+ ```bash
 
 [user]
     name = WalysonMoura
@@ -31,6 +30,9 @@
   c = !git add --all && git commit -m
   l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr' 
 ```
+</details>
+
+
 
 <details>
  <summary><h2>Front-End <img src="https://github.com/rafaballerini/ReactHooks/blob/master/public/React.svg.png?raw=true" width="70px"/></h2>
