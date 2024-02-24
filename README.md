@@ -139,10 +139,23 @@ npm add typescript  @types/node -D
  npx tsc --init
 ```
 
+```.json
+ {
+   "target": "es2020",  
+   
+   "baseUrl": "./",                                     /* Specify the base directory to resolve non-relative module names. */
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+ }
+```
+
+
+
 * ## compilar  TypeScript
 
 ```bash
-npm add ts-node-dev -D
+pnpm i ts-node-dev -D
 ```
 
 ## compilar TypeScript (Build)
@@ -177,6 +190,13 @@ npm i tsup -D
  }
 ```
 
+arquivo `.eslintignore`
+
+```.eslintignore
+ node_modules
+ build
+```
+
   ```.json
  {
    "scripts": {
@@ -194,6 +214,13 @@ npm i tsup -D
 ```bash
  npm i dotenv   
 ```
+
+* ## .npmrc
+`.npmrc`
+```bash
+save-exact=true  
+```
+
 
 </details>
 
