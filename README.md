@@ -399,9 +399,10 @@ save-exact=true
 Cole esse código no arquivo  `schema.prisma` :
 
  ```.js
-  generator erd {
-     provider = "prisma-erd-generator"
-  }
+ generator client {
+  provider = "prisma-client-js"
+  output   = "./generated/prisma-client-js"
+}
  ```
 
  ```bash
