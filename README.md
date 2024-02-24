@@ -105,6 +105,18 @@ npm i  animate.css --save
 npm i  @splinetool/react-spline @splinetool/runtime
 ```
 
+<details>
+<summary><h2>Ferramentas Extra</h2></summary>
+
+* [CSS Buttons](https://uiverse.io)
+* [Neumorphism](https://neumorphism.io/#e0e0e0)
+* [Efeito Vidro](https://css.glass/)
+* [Testes](https://www.refraction.dev/)
+* [Box-Shadow CSS Generator](https://html-css-js.com/css/generator/box-shadow/)
+* [FANCY-BORDER-RADIUS](https://9elements.github.io/fancy-border-radius/)
+
+</details> 
+
 </details>
 
 <details>
@@ -415,14 +427,3 @@ Cole esse código no arquivo  `schema.prisma` :
 
 
 
-<details>
-<summary><h2>Ferramentas Extra</h2></summary>
-
-* [CSS Buttons](https://uiverse.io)
-* [Neumorphism](https://neumorphism.io/#e0e0e0)
-* [Efeito Vidro](https://css.glass/)
-* [Testes](https://www.refraction.dev/)
-* [Box-Shadow CSS Generator](https://html-css-js.com/css/generator/box-shadow/)
-* [FANCY-BORDER-RADIUS](https://9elements.github.io/fancy-border-radius/)
-
-</details> 
