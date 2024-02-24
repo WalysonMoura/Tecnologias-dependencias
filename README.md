@@ -34,7 +34,7 @@
 
 
 <details>
- <summary><h2>Front-End <img src="https://github.com/rafaballerini/ReactHooks/blob/master/public/React.svg.png?raw=true" width="70px"/></h2>
+ <summary><h1>Front-End <img src="https://github.com/rafaballerini/ReactHooks/blob/master/public/React.svg.png?raw=true" width="70px"/></h1>
  </summary>
 
 * ## Instalação React / Next.JS / Styled-Components
