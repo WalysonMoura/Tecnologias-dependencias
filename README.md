@@ -263,11 +263,11 @@ save-exact=true
 * ###  Nest.JS
   
    ```bash
-    npm i express   
+    pnpm  
    ```
 
    ```bash
-     npm i  @types/express -D 
+     pnpm
    ```
 
 </details>
@@ -280,7 +280,20 @@ save-exact=true
  ```bash
   npm i vitest -D
  ```
+ `vite.config.js`
 
+```typescript
+  import { defineConfig } from 'vitest/config'
+import tsconfigPaths from 'vite-tsconfig-paths'
+
+export default defineConfig({
+  plugins: [tsconfigPaths()],
+  test: {
+    environmentMatchGlobs: [['src/http/controllers/**', 'prisma']],
+  },
+})
+
+ ```
 </details>
 
 <details>
