@@ -344,20 +344,6 @@ save-exact=true
 </details>
 
 
-<details>
- <summary>
-   <h2>SQL Query Builder</h2>
- </summary>
-
-* ###  Knex.js
-
- ```bash
-   npm install knex sqlite3
- ```
-
-</details>
-
-
 
 
 <details>
@@ -412,102 +398,24 @@ Cole esse código no arquivo  `schema.prisma` :
 </details>
 
 
-
 <details>
- <summary><h2>ORM</h2></summary>
+ <summary>
+   <h2>SQL Query Builder</h2>
+ </summary>
 
-* ### Type ORM
+* ###  Knex.js
 
-#### -> Com PostgreSQL
-
-```bash
- yarn  typeorm reflect-metadata pg
-```
-
-#### Criando Migrations
-
-```bash
- yarn add typeorm migration:create -n CreateCategories
-```
-
-* ## Ejs
-
-```bash
- express nomeProjeto --ejs   
-```
-
-* ## Sequelize
-
-```bash
- yarn add sequelize
-```
-
-```bash
-yarn add sequelize-cli -D
-```
-
-### Models co sequelize
-
-```bash
-yarn sequelize init:models
-```
+ ```bash
+   npm install knex sqlite3
+ ```
 
 </details>
 
-<details>
- <summary><h2>Database</h2></summary>
 
-* ## MySQL
 
-```bash
-yarn add install mysql2
-```
-
-</details>
 
 <details>
-<summary><h2>Database</h2></summary>
-
-* ## axios
-
-```bash
- yarn add --save axios   
-```
-
-</details>
-
-<details>
-<summary><h2>Database</h2></summary>
-
-* ## GraphQL
-
-```bash
- yarn add type-graphql graphql apollo-server class-validator reflect-metadata
- 
-```
-
-```bash
- yarn add type-g
- 
-```
-
-</details>
-
-# CMS
-
-* ## Prismic
-
-```
- yarn add @prismicio/react @prismicio/client
-``
- 
-</details> 
-
-
-
-
-
-# Ferramentas Extras
+<summary><h2>Ferramentas Extra</h2></summary>
 
 * [CSS Buttons](https://uiverse.io)
 * [Neumorphism](https://neumorphism.io/#e0e0e0)
@@ -515,3 +423,5 @@ yarn add install mysql2
 * [Testes](https://www.refraction.dev/)
 * [Box-Shadow CSS Generator](https://html-css-js.com/css/generator/box-shadow/)
 * [FANCY-BORDER-RADIUS](https://9elements.github.io/fancy-border-radius/)
+
+</details> 
