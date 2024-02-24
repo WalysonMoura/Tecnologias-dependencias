@@ -7,10 +7,10 @@
 
 
 <details>
- <summary><h2>Config GIT</h2>
+ <summary><h2>Config GIT</h2></summary>
 
- </summary>
- ```bash
+  
+```bash
 
 [user]
     name = WalysonMoura
@@ -31,7 +31,6 @@
   l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr' 
 ```
 </details>
-
 
 
 <details>
