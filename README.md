@@ -131,7 +131,7 @@ npm i  @splinetool/react-spline @splinetool/runtime
 * ## All
 
 ```bash
- npm i typescript @types/express @types/node tsup vitest  eslint tsx -D   
+ npm i typescript  @types/node tsup vitest  eslint tsx -D   
 ```
 
 * ## TSX
