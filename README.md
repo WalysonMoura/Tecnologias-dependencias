@@ -193,13 +193,25 @@ npm i tsup -D
  npm i @rocketseat/eslint-config -D   
 ```
 
+```bash
+ npm i eslint-plugin-vitest-globals -D   
+```
+
  arquivo `.eslintrc.json`
 
 ```.json
  {
-   "extends": {
-     "@rocketseat/eslint-config/node"
-   }
+   "extends": [
+     "@rocketseat/eslint-config/node",
+     "plugin:vitest-globals/recommended"
+   ],
+   "rules": {
+    "no-useless-constructor": "off",
+    "no-new": "off"
+   },
+   "env": {
+    "vitest-globals/env": true
+  }
  }
 ```
 
@@ -289,9 +301,19 @@ import tsconfigPaths from 'vite-tsconfig-paths'
 export default defineConfig({
   plugins: [tsconfigPaths()],
   test: {
+     globals: true,
     environmentMatchGlobs: [['src/http/controllers/**', 'prisma']],
   },
 })
+
+ ```
+
+  `tsconfig.json`
+
+```json
+  "types": [
+      "vitest/globals"
+    ]
 
  ```
 </details>
